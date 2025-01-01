@@ -1,0 +1,86 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    width: 50%;
+    height: 70vh;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    align-self: center;
+}
+.screen{
+    width: 100%;
+    flex-grow: 3;
+    background-color: yellow;
+    color: red;
+    font-weight: 400;
+    font-size: 64px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 4;
+    background-color:darkgray;
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+.actions>div{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 1;
+}
+.numbers{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.numbers>div{
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: black;
+    opacity: 1;
+}
+
+#clear{
+    color: aliceblue;
+}
+
+#power{
+    color: green;
+}
+#allClear{
+    color: red;
+}
