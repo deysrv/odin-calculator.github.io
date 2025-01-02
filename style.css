@@ -29,6 +29,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    overflow: hidden;
 }
 .buttons{
     display: flex;
@@ -79,7 +80,7 @@
 }
 
 #power{
-    color: green;
+    color: red;
 }
 #allClear{
     color: red;
